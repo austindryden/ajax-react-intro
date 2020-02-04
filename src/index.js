@@ -3,6 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Axios from 'axios';
+
+const API_ENDPOINT = "https://swapi/co/people/1"
+
+
+
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
